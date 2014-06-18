@@ -14,6 +14,7 @@ library
   ghc-options:         -Wall -Werror -O3
   exposed-modules:     Data.Graph.Free
                      , Data.Graph.Cofree
+  other-modules:       Data.Graph.Internal
   build-depends:       base >=4.6
                      , graphviz >= 2999.16
                      , fgl >= 5.4
